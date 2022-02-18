@@ -1,3 +1,6 @@
+#โซตะ โอกาวา
+#26841
+
 #import package
 from kivy.app import App
 from kivy.uix.screenmanager import Screen
