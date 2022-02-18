@@ -8,7 +8,6 @@ from kivy.uix.screenmanager import Screen
 #load main.kv file
 from kivy.lang import Builder
 import os
-
 folder = os.path.dirname(__file__)
 file = os.path.join(folder, 'main.kv')
 Builder.load_file(file)
