@@ -1,0 +1,199 @@
+<window>:
+    orientation: "vertical"
+    spacing: 10
+    canvas.before:
+        Color:
+            rgb: (35/255, 41/255, 49/255)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+        
+    Label:
+        text: '1 + 1'
+        font_size: 32
+        size_hint_y: 1.75
+        height: 180
+
+    BoxLayout:
+        size_hint_y: None
+        orientation: "vertical"
+        canvas.before:
+            Color:
+                rgb: (57/255, 62/255, 70/255)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        height: 360
+        BoxLayout:
+            size_hint_y: None
+            height: 90
+            Button:
+                text: '1'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '2'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '3'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '+'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: 'BS'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+        BoxLayout:
+            size_hint_y: None
+            height: 90
+            Button:
+                text: '4'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '5'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '6'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '-'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '^'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+        BoxLayout:
+            size_hint_y: None
+            height: 90
+            Button:
+                text: '7'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '8'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '9'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '*'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '%'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+        BoxLayout:
+            size_hint_y: None
+            height: 90
+            Button:
+                text: 'CLEAR'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '0'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '.'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '/'
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+            Button:
+                text: '='
+                size_hint_x: None
+                width: 90
+                background_color: (78/255, 204/255, 163/255)
+                background_normal: ''
+                on_press: self.background_color = (57/255, 62/255, 70/255)
+                on_release: self.background_color = (78/255, 204/255, 163/255)
+                
