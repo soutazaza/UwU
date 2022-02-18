@@ -9,7 +9,6 @@ from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
 import os
 
-from pandas import set_option
 folder = os.path.dirname(__file__)
 file = os.path.join(folder, 'main.kv')
 Builder.load_file(file)
